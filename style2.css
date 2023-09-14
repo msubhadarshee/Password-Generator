@@ -134,15 +134,20 @@ h1 {
 .generateButton {
     width: 100%;
     padding: 1rem 0;
-    background-color: var(--vb-violet);
+    background: #fc00ff; 
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+    background: linear-gradient(to right, #00dbde, #fc00ff); 
     text-align: center;
     border-radius: 0.75rem;
-    border-bottom: 0.35rem solid var(--vb-yellow);
+    border-bottom: 0.35rem solid var(--vb-white);
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: var(--vb-yellow);
+    color: rgb(90, 39, 8);
     font-weight: 600;
     font-size: 1.25rem;
+}
+.generateButton:hover{
+    cursor: pointer;
 }
 
 .check {
